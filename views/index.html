@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Search Abstraction Layer</title>
+    <link rel="stylesheet" type="text/css" href="public/style.css"/>
+</head>
+<body>
+    <h1>Image Search Abstraction Layer</h1>
+    <hr/>
+    <h2><a href="api/latest/imagesearch" target="_blank">Get recently searched terms [10 items]</a></h2>
+    <p>
+      <form action="#" onsubmit="return gotourl()">
+        <br/>
+        <input type="text" name="term" id="term" placeholder="Enter Search Term.." autofocus/>
+        &nbsp; &nbsp; Number of Items: <input type="number" name="offset" id="offset" value="10"/>
+        &nbsp; <button type="submit">Submit</button>
+  </form>
+    </p>
+    <hr/>
+    <p>
+        <blockquote>
+            <h3>Usage Example: </h3>
+            <ul>
+                <li><b>Searches Link: </b><a href="api/imagesearch/cat?offset=10">/api/imagesearch/cat?offset=10</a> returns 10 images of cat in JSON format</li>
+                <li><b>Recent Searches: </b><a href="api/latest/imagesearch">/api/latest/imagesearch</a> returns recent searches as JSON object</li>
+            </ul>
+        </blockquote>
+    </p>
+    <script src="public/script.js"></script>
+</body>
+</html>

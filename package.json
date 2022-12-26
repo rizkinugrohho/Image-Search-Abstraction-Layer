@@ -1,0 +1,29 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "1.0.0",
+  "description": "full stack JavaScript app that allows you to search for images and return a json object to the query",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatkantinandi/Image-Search-Abstraction-Layer.git"
+  },
+  "keywords": [
+    "image-search",
+    "freecodecamp"
+  ],
+  "author": "Rajat Kanti Nandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajatkantinandi/Image-Search-Abstraction-Layer/issues"
+  },
+  "homepage": "https://github.com/rajatkantinandi/Image-Search-Abstraction-Layer#readme",
+  "dependencies": {
+    "bing.search": "^1.0.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3"
+  }
+}
